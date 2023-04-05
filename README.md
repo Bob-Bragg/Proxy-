@@ -1,19 +1,53 @@
-User Guide: Proxy Requester
-Proxy Requester is a Python GUI application that allows users to make HTTP/HTTPS requests through a proxy server and check if the proxy server is working.
+User Guide and How To Use the Proxy Requester
+=============================================
 
-Requirements
-Python 3.x
-Requests library (pip install requests)
-Tkinter library (should be pre-installed with Python)
+The Proxy Requester is a Python script that allows users to make HTTP requests through a proxy server. This script has a graphical user interface (GUI) that makes it easy to input the desired URL and proxy server, check the status of the proxy server, and view the response from the requested URL.
+
 How to Use
-Open the proxy_requester.py file in a Python IDE or text editor.
-Run the file.
-Enter the URL you want to make a request to in the "URL" entry field.
-Enter the HTTP and/or HTTPS proxy server address and port number in the respective entry fields.
-Click the "Check Proxy" button to check if the proxy server is working. The button will turn green if the proxy is working and red if it's not working.
-If the proxy server is working, click the "Send Request" button to make a request to the URL through the proxy server. The response content will be displayed in a new window.
-Click the "Proxies" button to open a webpage with a list of free proxies to use.
-Troubleshooting
-If you're having trouble checking the proxy server, make sure that you're entering the correct address and port number for the server.
-If you're having trouble making a request through the proxy server, make sure that the URL you're trying to request is accessible through the proxy and that the proxy is not blocking the request.
-If you're still having trouble, try using a different proxy server or contact the administrator of the proxy server for assistance.
+----------
+
+1.  Download the script and ensure that Python is installed on your system.
+2.  Open the script in a text editor or Python IDE.
+3.  Run the script.
+4.  The GUI will appear, allowing you to input the URL you want to request and the proxy server to use.
+5.  Click the "Check Proxy" button to test the proxy server's connection.
+6.  If the proxy server is working, the "Check Proxy" button will turn green. If the proxy server is not working, the "Check Proxy" button will turn red.
+7.  Click the "Send Request" button to make the request through the proxy server and view the response in a new window.
+8.  If you want to change the proxy server or URL, simply enter the new values in the input fields and click the appropriate button.
+9.  If you want to access a list of proxy servers, click the "Proxies" button to open the "<https://hidemy.name/en/proxy-list/?type=s&anon=4#list>" URL in your default web browser.
+
+GUI Components
+--------------
+
+### URL Input Field
+
+This input field is where you enter the URL you want to request.
+
+### HTTP Proxy Input Field
+
+This input field is where you enter the HTTP proxy server you want to use.
+
+### HTTPS Proxy Input Field
+
+This input field is where you enter the HTTPS proxy server you want to use.
+
+### Check Proxy Button
+
+This button checks the connection of the proxy server. If the proxy server is working, the button turns green. If the proxy server is not working, the button turns red.
+
+### Send Request Button
+
+This button sends the request through the proxy server and displays the response in a new window.
+
+### Proxies Button
+
+This button opens the "<https://hidemy.name/en/proxy-list/?type=s&anon=4#list>" URL in your default web browser.
+
+### Response Text Box
+
+This text box displays the response from the requested URL or any error messages that occur during the request process.
+
+Conclusion
+----------
+
+The Proxy Requester is a simple yet powerful tool for making HTTP requests through a proxy server. With its easy-to-use GUI and straightforward functionality, it is an excellent choice for anyone who needs to test the connection of a proxy server or make requests through a proxy server.
